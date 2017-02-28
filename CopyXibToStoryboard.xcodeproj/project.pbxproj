@@ -12,6 +12,9 @@
 		11D1BC371E65C7B600A3C673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1BC351E65C7B600A3C673 /* Main.storyboard */; };
 		11D1BC391E65C7B600A3C673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D1BC381E65C7B600A3C673 /* Assets.xcassets */; };
 		11D1BC3C1E65C7B600A3C673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1BC3A1E65C7B600A3C673 /* LaunchScreen.storyboard */; };
+		11D1BC481E65C9A700A3C673 /* iOSInsightLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D1BC471E65C9A700A3C673 /* iOSInsightLogo.png */; };
+		11D1BC641E65E49300A3C673 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D1BC621E65E49300A3C673 /* MyViewController.xib */; };
+		11D1BC651E65E49300A3C673 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1BC631E65E49300A3C673 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		11D1BC381E65C7B600A3C673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D1BC3B1E65C7B600A3C673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D1BC3D1E65C7B600A3C673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D1BC471E65C9A700A3C673 /* iOSInsightLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSInsightLogo.png; sourceTree = "<group>"; };
+		11D1BC621E65E49300A3C673 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		11D1BC631E65E49300A3C673 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				11D1BC311E65C7B600A3C673 /* AppDelegate.swift */,
 				11D1BC331E65C7B600A3C673 /* ViewController.swift */,
 				11D1BC351E65C7B600A3C673 /* Main.storyboard */,
+				11D1BC621E65E49300A3C673 /* MyViewController.xib */,
+				11D1BC631E65E49300A3C673 /* MyViewController.swift */,
+				11D1BC471E65C9A700A3C673 /* iOSInsightLogo.png */,
 				11D1BC381E65C7B600A3C673 /* Assets.xcassets */,
 				11D1BC3A1E65C7B600A3C673 /* LaunchScreen.storyboard */,
 				11D1BC3D1E65C7B600A3C673 /* Info.plist */,
@@ -124,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D1BC481E65C9A700A3C673 /* iOSInsightLogo.png in Resources */,
 				11D1BC3C1E65C7B600A3C673 /* LaunchScreen.storyboard in Resources */,
 				11D1BC391E65C7B600A3C673 /* Assets.xcassets in Resources */,
 				11D1BC371E65C7B600A3C673 /* Main.storyboard in Resources */,
+				11D1BC641E65E49300A3C673 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				11D1BC341E65C7B600A3C673 /* ViewController.swift in Sources */,
 				11D1BC321E65C7B600A3C673 /* AppDelegate.swift in Sources */,
+				11D1BC651E65E49300A3C673 /* MyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

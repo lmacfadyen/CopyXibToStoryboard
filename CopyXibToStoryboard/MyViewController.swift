@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MyViewController.swift
 //  CopyXibToStoryboard
 //
 //  Created by Lawrence F MacFadyen on 2017-02-28.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyViewController: UIViewController {
 
+    @IBOutlet weak var labelTitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -17,13 +19,9 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-    @IBAction func showXibPressed(_ sender: Any) {
-        let vc = MyViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+    
+    override func viewWillAppear(_ animated: Bool) {
+        labelTitle.text = "My View Controller"
     }
-    
-    
 
 }
-
